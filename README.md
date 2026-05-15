@@ -35,7 +35,7 @@ files Certificates and resume
 index.html Main entry page
 
 CONTACT
------------
+--------
 Email: [lalithayelisetti02@gmail.com](mailto:lalithayelisetti02@gmail.com)
 Location :  AndhraPradesh , India
 
