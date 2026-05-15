@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalitha Portfolio</title>
+    <link rel="icon" href="../images/Favicon.png">
+    <link rel="stylesheet" href="../CSS_files/style.css">
+    <link rel="stylesheet" href="../CSS_files/Skills_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div>
+        <!-- HEADER -->
+        <header>
+            <div class="inner">
+                <div class="logo">Sri Lalitha</div>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="./education.html">Education</a>
+                    <a href="./skills.html" class="active">Skills</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+
+    <div class="container">
+        <h1 class="page-heading">My Skills</h1>
+
+        <!-- Skills -->
+
+        <div class="skills-section">
+
+            <div class="skills-box">
+
+                <h2>Programming Languages</h2>
+
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fa-solid fa-c"></i>C
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-java"></i> Java
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-js"></i> JavaScript
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+
+                <h2>Web Technologies</h2>
+
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fa-brands fa-html5"></i> HTML
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-css3"></i> CSS
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-js"></i> JavaScript
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <h2>Core Concepts</h2>
+
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <img src="../images/DSA_icon.png" alt="DSA"> DSA
+                    </div>
+                    <div class="skill-item">
+                        <img src="../images/problem-solving.png" alt="problemSolving">Problem Solving
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="skills-box">
+
+                <h2>Tools</h2>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <img src="../images/VisualStudioCode.png" alt="VS Code"> VS Code
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa fa-book"></i> Jupyter Notebook
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i> Git
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Coding Section -->
+        <a href="https://codolio.com/profile/YELISETTI%20.%20SRI%20LALITHA" target="_blank">
+            <h2 class="page-heading">Coding Profiles</h2>
+        </a>
+        <!-- Coding Profiles -->
+        <div class="coding-links">
+            <a href="https://leetcode.com/u/YelisettiSriLalitha/" target="_blank">
+                <img src="../images/leetcode_icon.png" alt="leetcode">
+                LeetCode</a>
+            <a href="https://www.hackerrank.com/profile/lalithayelisett1" target="_blank">
+                <img src="../images/HackerRank_icon.png" alt="">HackerRank</a>
+            <a href="https://www.codechef.com/users/fast_camp_71" target="_blank">
+                <img src="../images/CodeChef_icon.png" alt="codechef">CodeChef</a>
+            <a href="https://www.geeksforgeeks.org/profile/lalithayeltqwh" target="_blank">
+                <img src="../images/GFG_Icon.png" alt="GFG">GeeksforGeeks</a>
+            <a href="https://codeforces.com/profile/SriLalitha.Y" target="_blank">
+                <img src="../images/CodeForces_icon.png" alt="codefoces"> Codeforces</a>
+        </div>
+
+        <!-- PROJECT -->
+        <div class="project-section">
+            <h2 class="page-heading">Project</h2>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="../images/Project.png" alt="project">
+                </div>
+
+                <div class="project-info">
+                    <h3>
+                        Healthcare Appointment Booking & Chatbot System
+                    </h3>
+                    <p>
+                        Developed a responsive healthcare appointment booking and chatbot web application
+                        using HTML, CSS, and JavaScript. The project features an intuitive user interface,
+                        form validation for accurate user input, and a clean responsive design that
+                        improves user experience and accessibility across different devices.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CERTIFICATION SECTION -->
+
+        <section class="certification-section" id="certifications">
+
+            <h2 class="page-heading">Certifications</h2>
+            <div class="cert-tabs">
+                <button class="tab-btn active" onclick="showCertificates('global', event)">
+                    Certifications
+                </button>
+                <button class="tab-btn" onclick="showCertificates('badges', event)">
+                    Badges
+                </button>
+                <button class="tab-btn" onclick="showCertificates('internships', event)">
+                    Internships
+                </button>
+            </div>
+
+            <!-- CERTIFICATIONS -->
+
+            <div class="certificate-container active-tab" id="global">
+                <div class="certificate-card">
+                    <img src="../files/Certificates/images/HTML_CSS.png">
+                    <div class="certificate-info">
+                        <h3>HTML CSS</h3>
+                        <p>Information Technology Specialist</p>
+                    </div>
+                    <div class="overlay">
+                        <button onclick="openModal('../files/Certificates/pdfs/Html_Css_Certificate.pdf')">
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="../files/Certificates/images/HackerRank_JavaBasic.png">
+                    <div class="certificate-info">
+                        <h3>Java Basic</h3>
+                        <p>HackerRank</p>
+                    </div>
+                    <div class="overlay">
+                        <button onclick="openModal('../files/Certificates/pdfs/HackerRank_java_basic_certificate.pdf')">
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="../files/Certificates/images/HackerRank_ProblemSlovingBasic.png">
+                    <div class="certificate-info">
+                        <h3>Problem Solving Basic</h3>
+                        <p>HackerRank</p>
+                    </div>
+                    <div class="overlay">
+                        <button
+                            onclick="openModal('../files/Certificates/pdfs/HackerRank_ProblemSolvingBasic_certificate.pdf')">
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="../files/Certificates/images/C_Essentials_1.png">
+                    <div class="certificate-info">
+                        <h3>C Essentials 1</h3>
+                        <p>Cisco</p>
+                    </div>
+                    <div class="overlay">
+                        <button onclick="openModal('../files/Certificates/pdfs/C_Essentials_1_certificate.pdf')">
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="../files/Certificates/images/C_Essentials_2.png">
+                    <div class="certificate-info">
+                        <h3>C Essentials 2</h3>
+                        <p>Cisco</p>
+                    </div>
+                    <div class="overlay">
+                        <button onclick="openModal('../files/Certificates/pdfs/C_Essentials_2_certificate.pdf')">
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BADGES -->
+
+            <div class="certificate-container" id="badges">
+
+                <div class="certificate-card">
+                    <img src="../files/Badges/images/C_Essentials_1_Badge.png">
+                    <div class="certificate-info">
+                        <h3>C Essentials 1 Badge</h3>
+                        <p>Cisco</p>
+                    </div>
+                    <div class="overlay">
+                        <button onclick="openModal('../files/Badges/pdfs/Cisco_C_Essentials1.pdf')">
+                            View Badge
+                        </button>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="../files/Badges/images/C_Essentials_2_Badge.png">
+                    <div class="certificate-info">
+                        <h3>C Essentials 2 Badge</h3>
+                        <p>Cisco</p>
+                    </div>
+                    <div class="overlay">
+                        <button onclick="openModal('../files/Badges/pdfs/Cisco_C_Essentials2.pdf')">
+                            View Badge
+                        </button>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="../files/Badges/images/it-specialist-html-and-css_badge.png">
+                    <div class="certificate-info">
+                        <h3>HTML CSS Badge</h3>
+                        <p>IT Specialist</p>
+                    </div>
+                    <div class="overlay">
+                        <button onclick="openModal('../files/Badges/pdfs/HTML_CSS_IT.pdf')">
+                            View Badge
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- internships -->
+
+        </section>
+
+        <!-- MODAL -->
+
+        <div class="certificate-modal" id="certificateModal">
+
+            <div class="modal-content">
+
+                <span class="close-btn" onclick="closeModal()">
+                    &times;
+                </span>
+
+                <iframe id="certificateFrame"></iframe>
+
+            </div>
+
+        </div>
+        <footer>
+            <div class="inner">
+                <div>© Sri Lalitha</div>
+
+                <div class="follow">
+                    <span>Follow me : </span>
+                    <div class="icons">
+                        <a href="https://github.com/sri-lalitha02" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sri-lalitha-yelisetti-1963a3340/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:lalithayelisetti02@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../JavaScript_files/script.js"></script>
+</body>
+
+</html>
