@@ -5,6 +5,10 @@ ABOUT ME
 ---------
 This is my personal portfolio website where I showcase my skills, projects, education, certificates, and resume. It represents my journey as a frontend developer and my learning in web development.
 
+LIVE PORTFOLIO
+--------------
+https://sri-lalitha02.github.io/portfolio/
+
 GITHUB REPOSITORY
 ------------------
 https://github.com/sri-lalitha02/portfolio
